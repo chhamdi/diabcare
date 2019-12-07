@@ -5,16 +5,16 @@ import { FormsModule } from '@angular/forms';
 
 import { AdminLayoutRoutes } from './admin-layout.routing';
 
-import { DashboardComponent }       from '../../pages/dashboard/dashboard.component';
+import { HomeComponent }       from '../../pages/home/home.component';
 import { UserComponent }            from '../../pages/user/user.component';
 import { TableComponent }           from '../../pages/table/table.component';
 import { TypographyComponent }      from '../../pages/typography/typography.component';
-import { IconsComponent }           from '../../pages/icons/icons.component';
-import { MapsComponent }            from '../../pages/maps/maps.component';
-import { NotificationsComponent }   from '../../pages/notifications/notifications.component';
+import { DailyDietComponent }           from '../../pages/daily-diet/daily-diet.component';
 import { UpgradeComponent }         from '../../pages/upgrade/upgrade.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RecommendedDietComponent } from 'app/pages/recommended-diet/recommended-diet.component';
+import { RestaurantsListComponent } from 'app/pages/restaurants-list/restaurants-list.component';
 
 @NgModule({
   imports: [
@@ -24,14 +24,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NgbModule
   ],
   declarations: [
-    DashboardComponent,
+    HomeComponent,
     UserComponent,
     TableComponent,
     UpgradeComponent,
     TypographyComponent,
-    IconsComponent,
-    MapsComponent,
-    NotificationsComponent,
+    DailyDietComponent,
+    RecommendedDietComponent,
+    RestaurantsListComponent
   ]
 })
 
