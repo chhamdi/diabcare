@@ -17,9 +17,6 @@ export const AppRoutes: Routes = [
       loadChildren: './layouts/admin-layout/admin-layout.module#AdminLayoutModule'
   }]},
   {
-    path: '**',
-    redirectTo: 'dashboard'
-  }, {
     path: 'login',
     component: LoginLayoutComponent
   }
